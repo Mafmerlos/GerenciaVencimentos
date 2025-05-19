@@ -50,11 +50,11 @@ def salvar_servico():
 
         with pd.ExcelWriter(servicos, engine='openpyxl') as writer:
             # Salva o DataFrame no writer
-            df_atualizado.to_excel(writer, sheet_name='Sheet1', index=False) # sheet_name pode ser o nome da sua aba
+            df_atualizado.to_excel(writer, sheet_name='Sheet1', index=False)
 
 
             workbook = writer.book
-            worksheet = writer.sheets['Sheet1'] # Acesse a sheet pelo nome
+            worksheet = writer.sheets['Sheet1'] 
 
 
             worksheet.column_dimensions['A'].width = 30
@@ -89,7 +89,7 @@ entry_name.grid(column=1, row=1, sticky=(tk.W, tk.E), padx=5, pady=5)
 
 data_label = ttk.Label(frm, text="Data Realização (DD/MM/AAAA):")
 data_label.grid(column=0, row=2, sticky=tk.W, padx=5, pady=5)
-entry_data = ttk.Entry(frm, width=20) # Largura típica para data
+entry_data = ttk.Entry(frm, width=20)
 entry_data.grid(column=1, row=2, sticky=(tk.W, tk.E), padx=5, pady=5)
 
 
