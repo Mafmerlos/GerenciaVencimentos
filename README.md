@@ -11,7 +11,6 @@ Um aplicativo desktop simples e eficaz, desenvolvido em **Python**, para gerenci
 ✅ Leitura e gravação dos dados em uma planilha **Excel (.xlsx)**  
 ✅ Ajuste automático da largura das colunas na planilha  
 ✅ Validação de entrada (campos obrigatórios e formato de data)  
-✅ Geração de executável `.exe` com **PyInstaller**
 
 ---
 
