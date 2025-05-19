@@ -23,6 +23,5 @@ Um aplicativo desktop simples e eficaz, desenvolvido em **Python**, para gerenci
 | `Pandas`        | Manipulação de dados e integração com Excel    |
 | `openpyxl`      | Backend usado pelo Pandas para `.xlsx`         |
 | `dateutil`      | Cálculos de data com `relativedelta`           |
-| `PyInstaller`   | Geração do executável standalone (.exe)        |
 
 -------------------------------------------------------------------
