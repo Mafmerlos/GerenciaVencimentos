@@ -29,7 +29,7 @@ def salvar_servico():
 
 
     if data_vencimento_str is None:
-        messagebox.showerror("Erro de data" , "Formato de 'Data realização' inválido. Use DD/MM/AAAA.")
+        messagebox.showerror("Erro de data", "Formato inválido. Use o formato DD/MM/AAAA, como 01/01/2025.")
         return
 
 
@@ -44,6 +44,7 @@ def salvar_servico():
         if os.path.exists(servicos):
             df_existente = pd.read_excel(servicos)
             df_atualizado = pd.concat([df_existente, novo_servico_df], ignore_index=True)
+            df_atualizado.drop_duplicates(inplace=True)
         else:
             df_atualizado = novo_servico_df
 
