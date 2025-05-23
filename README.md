@@ -25,3 +25,13 @@ Um aplicativo desktop simples e eficaz, desenvolvido em **Python**, para gerenci
 | `dateutil`      | Cálculos de data com `relativedelta`           |
 
 -------------------------------------------------------------------
+
+## 💡 Possíveis Melhorias Futuras
+
+- [ ] Filtro e busca de serviços cadastrados  
+- [ ] Edição e exclusão de registros existentes  
+- [ ] Exportação em PDF ou CSV  
+- [ ] Notificações de vencimentos próximos  
+- [ ] Armazenamento em banco de dados (ex: SQLite)  
+- [ ] Adição de categorias ou etiquetas para os serviços
+
